@@ -79,7 +79,7 @@ const Header = () => {
                     src='https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/274384738_3017623581885761_5467180606294157672_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=yp0s64h42-EAX_lAnj2&_nc_ht=scontent.fhan15-1.fna&oh=00_AT-vCn_-4hZPLa8M0_kzZ2pGhvjO77MBnsxuo_f9tAGJiw&oe=622A4B87' 
                     alt='Avatar header' 
                   />
-                  <p className='header-name'>Ninh Thế Toàn</p>
+                  <p className='header-profile-name'>Ninh Thế Toàn</p>
                 </Stack>
                 </Box>
               </MenuItem>

@@ -8,7 +8,11 @@
     width: 100%;
 
 }
-
+.header-profile-name{
+    padding: 2rem;
+    font-weight: 100px;
+    margin: 50px 0px 0px 5px;
+}
 .header-appName{
     padding: 2rem;
     font-weight: 100px;
