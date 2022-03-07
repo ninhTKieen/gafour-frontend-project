@@ -26,12 +26,12 @@ function PostButtons() {
             p='40px'
             color='white'
             mt='4'
-            bg='white'
+            bg='silver'
             rounded='md'
             shadow='md'
           >
             <FormControl isRequired>
-                <Input id='first-name' placeholder='Type your comment...' />
+                <Input id="post-comment-input" placeholder='Type your comment...' />
                 </FormControl>
           </Box>
         </Collapse>

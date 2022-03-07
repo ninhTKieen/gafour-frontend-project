@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
     <React.Fragment>
       <Header/>
       <Button colorScheme="blue">Go to login page</Button>
-      <Flex color='white'>
+      <Flex color='white'> 
       <Box bg='' w='100%' p={3} color='black'>
         <HomeAsideLeft></HomeAsideLeft>
       </Box>

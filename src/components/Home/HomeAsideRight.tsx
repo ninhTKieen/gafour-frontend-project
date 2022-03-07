@@ -1,29 +1,20 @@
 import { StarIcon } from '@chakra-ui/icons';
-import { Box, StackDivider, VStack } from '@chakra-ui/react';
+import { Box, Divider, StackDivider, VStack } from '@chakra-ui/react';
 import React from 'react';
+import FriendList from '../Friend/FriendList';
 
 import './HomeComponentsCSS/HomeAsideRight.css';
 function HomeAsideRight() {
   return (
       <div className="HomeAsideRight">
           <p className="HomeAsideRight-label">Online Friends</p>
+          <Divider />
           <VStack
             divider={<StackDivider />}
             spacing={4}
-            align='stretch'
+            align='left'
             >
-            <Box h='40px' bg=''>
-                <StarIcon/>
-                <span> Nguyễn Quốc Toàn</span>
-            </Box>
-            <Box h='40px' bg=''>
-            <StarIcon/>
-                <span> Thái Nê </span>
-            </Box>
-            <Box h='40px' bg=''>
-            <StarIcon/>
-                <span> Nhật Buồi</span>
-            </Box>
+                <FriendList></FriendList>
         </VStack>
       </div>
   );

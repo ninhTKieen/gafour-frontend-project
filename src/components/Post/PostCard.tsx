@@ -28,9 +28,10 @@ function PostCard() {
           </Flex>
           </Box>
           <Box  bg=''>
-            <p>🎀 FRAME MỚI: GIẤY CHỨNG NHẬN ĐẶC BIỆT CHO NỬA KIA THẾ GIỚI 🤩</p>
+            <p>Vãi lồng. Bỏ 75tr bảng mua trung vệ. Đéo biết nói gì luôn
+🤩</p>
           </Box>
-            <img src='https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/275433854_515183333309538_5477076693480872936_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=_bP-llOd5VMAX_McZpT&tn=XMuX_YWJbgDKqs4l&_nc_ht=scontent.fhan15-1.fna&oh=00_AT-x84MvemBSJpdzc_7_GxcAb1jAzcGjkyTL6DIf1Uhjng&oe=622AD2E4'>
+            <img src='https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/275298855_4873800476066362_2212531170644338131_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=kcHyIJFQzg8AX8lPNWr&tn=XMuX_YWJbgDKqs4l&_nc_ht=scontent.fhan15-2.fna&oh=00_AT8KoQhDXk1-ungaFd0CuRhYlyEFrPib4DXcJQUnkVMwhA&oe=622B9AD0'>
             </img>
             <Box  bg=''>
             <Stack direction='row'>

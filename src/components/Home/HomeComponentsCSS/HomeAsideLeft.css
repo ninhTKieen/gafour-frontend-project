@@ -2,3 +2,7 @@
     padding: 10px;
     font-size: 2rem;
 }
+.HomeAsideLeft{
+    position: fixed;
+    top: 50px;
+}
