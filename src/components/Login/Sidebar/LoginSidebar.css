@@ -1,0 +1,9 @@
+.login-side-bar {
+  width: 35vw;
+  height: 100vh;
+}
+
+.login-side-bar-web-title {
+  font-size: 60px;
+  color: #79bf43
+}
