@@ -1,6 +1,6 @@
 import React from 'react';
-import PostCard from '../PostCard';
-import PostInput from '../PostInput';
+import PostCard from '../Post/PostCard';
+import PostInput from '../Post/PostInput';
 
 function HomeContent() {
   return (

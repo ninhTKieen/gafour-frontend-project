@@ -4,6 +4,7 @@ import React from 'react';
 import './PostCard.css';
 import PostComment from './PostComment';
 
+
 function PostCard() {
   return (
       <div className="post-card">
@@ -63,9 +64,9 @@ function PostCard() {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                 <PostComment/>
-                 <PostComment/>
-                 <PostComment/>
+               <PostComment/>
+               <PostComment/>
+               <PostComment/>
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
