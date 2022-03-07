@@ -3,6 +3,8 @@ import { Image, Avatar, TagLabel, Badge, Box, Flex,Text, StackDivider, VStack, S
 import React from 'react';
 import './PostCard.css';
 import PostComment from './PostComment';
+import PostButtons from './PostButtons';
+
 
 
 function PostCard() {
@@ -40,18 +42,9 @@ function PostCard() {
           </Box>
           <Box  bg=''>
           <Stack direction='row' spacing={4} align='center'>
-            <Button colorScheme='teal' variant='solid'>
-              <StarIcon/>
-              <p className='post-card-option'> Like</p>
-            </Button>
-            <Button colorScheme='teal' variant='outline'>
-              <ChatIcon/>
-              <p className='post-card-option'>Comment</p>
-            </Button>
-            <Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
-              Share
-            </Button>
+            {/* button */}
           </Stack>
+          <PostButtons/>
           <Accordion defaultIndex={[0]} allowMultiple>
               <AccordionItem>
                 
