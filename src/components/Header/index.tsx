@@ -1,18 +1,15 @@
 import { EditIcon, WarningIcon,SettingsIcon,ArrowRightIcon,ChatIcon,BellIcon,Search2Icon } from '@chakra-ui/icons';
-import { Button,  Box,Text, Heading, Spacer, IconButton, Flex, InputGroup, InputLeftElement, Input, Stack, Menu, MenuButton, MenuList, MenuItemOption, MenuOptionGroup, MenuDivider, MenuGroup, MenuItem, InputRightElement} from '@chakra-ui/react';
+import { Button,  Box,Heading, Spacer, Flex, InputGroup, InputLeftElement, Input, Stack, Menu, MenuButton, MenuList, MenuDivider, MenuGroup, MenuItem} from '@chakra-ui/react';
 import React from 'react';
 import { Image } from '@chakra-ui/react'
-import { Link} from 'react-router-dom';
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
   PopoverHeader,
   PopoverBody,
-  PopoverFooter,
   PopoverArrow,
   PopoverCloseButton,
-  PopoverAnchor,
 } from '@chakra-ui/react'
 
 import './Header.css';

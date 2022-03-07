@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, ChatIcon, LinkIcon, StarIcon } from '@chakra-ui/icons';
+import { ArrowForwardIcon, ChatIcon, LinkIcon, TimeIcon } from '@chakra-ui/icons';
 import { Image, Avatar, TagLabel, Badge, Box, Flex,Text, StackDivider, VStack, Stack, Button, IconButton, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel } from '@chakra-ui/react';
 import React from 'react';
 import './PostCard.css';
@@ -23,7 +23,10 @@ function PostCard() {
                 Nguyễn Quốc Toàn
                
               </Text>
-              <Text fontSize='sm'>Friend</Text>
+              <Text fontSize=''>
+              <TimeIcon/>
+                 2 hours ago
+              </Text>
             </Box>
           </Flex>
           </Box>
