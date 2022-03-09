@@ -14,6 +14,7 @@ import './LoginSidebar.css';
 
 const LoginSideBar: React.FC = () => {
   const [show, setShow] = React.useState(false);
+  const [disabled, setDisabled] = React.useState(false);
 
   return (
     <React.Fragment>
@@ -26,19 +27,32 @@ const LoginSideBar: React.FC = () => {
 
           <div className="login-side-bar-body-input">
             <Stack>
-              <InputGroup size="lg">
+              <InputGroup size="lg" marginBottom="16px">
                 <InputLeftAddon>
                   <img src={flag} style={{ width: 20, height: 'auto', marginRight: 5 }} />
                   +84
                 </InputLeftAddon>
-                <Input type={show ? 'text' : 'password'} placeholder="987654321" />
+                <Input type="tel" placeholder="Nhập sđt" />
+              </InputGroup>
+              <InputGroup size="lg" marginBottom="16px">
+                <Input type={show ? 'text' : 'password'} placeholder="Nhâp mật khẩu" />
 
-                <InputRightElement width="4.5rem">
-                  <Button h="1.75rem" size="sm" onClick={() => setShow(!show)}>
+                <InputRightElement width="72px">
+                  <Button h="28px" size="sm" onClick={() => setShow(!show)}>
                     {show ? 'Hide' : 'Show'}
                   </Button>
                 </InputRightElement>
               </InputGroup>
+
+              <Input
+                type="submit"
+                value="Tiếp tục"
+                bg="#79bf43"
+                border="none"
+                height="52px"
+                width="100%"
+                disabled={true}
+              />
             </Stack>
           </div>
         </div>
