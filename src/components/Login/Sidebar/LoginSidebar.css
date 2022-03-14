@@ -4,6 +4,12 @@
   width: 35%;
   height: 100vh;
   flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.login-side-bar-main {
+  width: 70%;
 }
 
 .login-side-bar-web-title {
