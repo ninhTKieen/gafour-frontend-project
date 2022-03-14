@@ -8,6 +8,9 @@ import {
   InputRightElement,
   Button,
 } from '@chakra-ui/react';
+
+import LoginIntro from 'src/components/Login/Intro';
+
 import flag from 'src/assets/icons/vietnam-flag.png';
 import { SiGmail as Gmail } from 'react-icons/si';
 
@@ -65,7 +68,7 @@ const LoginSideBar: React.FC = () => {
                 width="100%"
                 bg="red"
                 color="white"
-                marginTop="20px"
+                marginTop="24px"
                 height="52px"
               >
                 Đăng nhập bằng Gmail
@@ -73,6 +76,7 @@ const LoginSideBar: React.FC = () => {
             </div>
           </div>
         </div>
+        <LoginIntro />
       </div>
     </React.Fragment>
   );
