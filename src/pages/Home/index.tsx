@@ -1,10 +1,14 @@
 import React from 'react';
+
 import Header from 'src/components/Header';
 
 import { Box, Button, Flex } from '@chakra-ui/react';
 import HomeContent from '../../components/Home/HomeContent';
 import HomeAsideLeft from '../../components/Home/HomeAsideLeft';
 import HomeAsideRight from '../../components/Home/HomeAsideRight';
+
+
+
 
 const HomePage: React.FC = () => {
   return (
