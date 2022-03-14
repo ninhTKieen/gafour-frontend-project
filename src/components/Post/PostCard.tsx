@@ -4,6 +4,8 @@ import React from 'react';
 import './PostCard.css';
 import PostComment from './PostComment';
 import PostButtons from './PostButtons';
+import avatar from 'src/assets/Avatar/avatar.jpg';
+import post_image from 'src/assets/Post/post_image.jpg';
 
 
 
@@ -17,7 +19,7 @@ function PostCard() {
         >
           <Box h='40px' bg=''>
           <Flex>
-            <Avatar src='https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/274184434_3116187161979818_1349060874152922876_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6cE0sZsMPTIAX8kAEBa&_nc_ht=scontent.fhan15-1.fna&oh=00_AT-gpJqCpUZ83Qv-KY_JxN2xgaNA-vnJeXftOi_5M8LqKA&oe=622AABA8' />
+            <Avatar src={avatar} />
             <Box ml='3'>
               <Text fontWeight='bold'>
                 Nguyễn Quốc Toàn
@@ -34,7 +36,7 @@ function PostCard() {
             <p>Vãi lồng. Bỏ 75tr bảng mua trung vệ. Đéo biết nói gì luôn
 🤩</p>
           </Box>
-            <img src='https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/275298855_4873800476066362_2212531170644338131_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=kcHyIJFQzg8AX8lPNWr&tn=XMuX_YWJbgDKqs4l&_nc_ht=scontent.fhan15-2.fna&oh=00_AT8KoQhDXk1-ungaFd0CuRhYlyEFrPib4DXcJQUnkVMwhA&oe=622B9AD0'>
+            <img src={post_image}>
             </img>
             <Box  bg=''>
             <Stack direction='row'>
