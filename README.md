@@ -1,4 +1,4 @@
-# ENational Library Frontend
+# Clone Gapo Project Frontend
 
 ## Requirements
 
@@ -13,12 +13,13 @@
 
 - IDE: `Visual Studio Code` (VS Code).
 - Extensions
+
   1. Some `Javascript` (`ES6`, `ES7`) extentions
   2. `Prettier`
   3. `Eslint`
 
 - `nvm` to manage `node`
-- `node` lts version 
+- `node` lts version
 - Browser: `Google Chrome` for developing and debugging.
 - Browser extensions:
   1. `React Developer Tools`
