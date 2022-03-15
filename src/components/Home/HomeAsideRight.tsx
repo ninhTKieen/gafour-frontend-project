@@ -1,9 +1,9 @@
-import { StarIcon } from '@chakra-ui/icons';
-import { Box, Divider, StackDivider, VStack } from '@chakra-ui/react';
+import {Divider, StackDivider, VStack } from '@chakra-ui/react';
 import React from 'react';
 import FriendList from '../Friend/FriendList';
 
 import './HomeComponentsCSS/HomeAsideRight.css';
+
 function HomeAsideRight() {
   return (
       <div className="HomeAsideRight">
@@ -13,9 +13,9 @@ function HomeAsideRight() {
             divider={<StackDivider />}
             spacing={4}
             align='left'
-            >
-                <FriendList></FriendList>
-        </VStack>
+          >
+            <FriendList></FriendList>
+          </VStack>
       </div>
   );
 }

@@ -1,29 +1,14 @@
 import React from 'react';
+import { Button } from '@chakra-ui/react';
 import Header from 'src/components/Header';
-
-import { Box, Button, Flex } from '@chakra-ui/react';
-import HomeContent from '../../components/Home/HomeContent';
-import HomeAsideLeft from '../../components/Home/HomeAsideLeft';
-import HomeAsideRight from '../../components/Home/HomeAsideRight';
+import HomeContentContainer from 'src/components/Home/HomeContentContainer';
 
 const HomePage: React.FC = () => {
   return (
     <React.Fragment>
       <Header/>
-      <Button colorScheme="blue">Go to login page</Button>
-      <Flex color='white'> 
-      <Box bg='' w='100%' p={3} color='black'>
-        <HomeAsideLeft></HomeAsideLeft>
-      </Box>
-
-      <Box bg='' w='100%' p={5} color='black'>
-       <HomeContent/>
-      </Box>
-     
-      <Box bg='' w='100%' p={3} color='black'>
-        <HomeAsideRight/>
-      </Box>
-      </Flex>
+      <HomeContentContainer/>
+      <div>Dit me may</div>
     </React.Fragment>
   );
 };
