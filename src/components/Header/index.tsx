@@ -1,18 +1,17 @@
 import { EditIcon, WarningIcon,SettingsIcon,ArrowRightIcon,ChatIcon,BellIcon,Search2Icon } from '@chakra-ui/icons';
-import { Button,  Box,Text, Heading, Spacer, IconButton, Flex, InputGroup, InputLeftElement, Input, Stack, Menu, MenuButton, MenuList, MenuItemOption, MenuOptionGroup, MenuDivider, MenuGroup, MenuItem, InputRightElement} from '@chakra-ui/react';
+import { Button,  Box,Heading, Spacer, Flex, InputGroup, InputLeftElement, Input, Stack, Menu, MenuButton, MenuList, MenuDivider, MenuGroup, MenuItem} from '@chakra-ui/react';
 import React from 'react';
-import { Image } from '@chakra-ui/react'
-import { Link} from 'react-router-dom';
+import { Image } from '@chakra-ui/react';
+import avatar from 'src/assets/Avatar/avatar.jpg';
+
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
   PopoverHeader,
   PopoverBody,
-  PopoverFooter,
   PopoverArrow,
   PopoverCloseButton,
-  PopoverAnchor,
 } from '@chakra-ui/react'
 
 import './Header.css';
@@ -76,7 +75,7 @@ const Header = () => {
                     borderRadius='full'
                     objectFit='cover'
                     boxSize='100px'
-                    src='https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/274384738_3017623581885761_5467180606294157672_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=yp0s64h42-EAX_lAnj2&_nc_ht=scontent.fhan15-1.fna&oh=00_AT-vCn_-4hZPLa8M0_kzZ2pGhvjO77MBnsxuo_f9tAGJiw&oe=622A4B87' 
+                    src={avatar}
                     alt='Avatar header' 
                   />
                   <p className='header-profile-name'>Ninh Thế Toàn</p>
