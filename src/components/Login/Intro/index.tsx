@@ -12,10 +12,10 @@ const LoginIntro: React.FC = () => {
             <span className="login-intro-content">
               Địa chỉ: Số 1 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội
             </span>
+            <span className="login-intro-content">SĐT: 0933699918 Email: chuoisp@gapo.vn</span>
             <span className="login-intro-content">
-              SĐT: 0933699918 
+              Chịu trách nhiệm quản lý nội dung: {"Chuoi's team"}
             </span>
-            <span className='login-intro-content'>Email: theinvincibleUnited@gmail.com</span>
           </div>
         </div>
       </div>

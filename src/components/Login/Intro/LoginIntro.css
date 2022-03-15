@@ -1,6 +1,6 @@
 .login-intro {
   margin-top: 10%;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
 }
@@ -17,7 +17,7 @@
   line-height: 24px;
   line-height: 40px;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: left;
 }
 
@@ -30,4 +30,10 @@
 
 .login-intro-content {
   text-align: left;
+  color: rgb(115, 118, 130);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 10px;
 }
