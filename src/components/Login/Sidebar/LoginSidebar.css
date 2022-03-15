@@ -1,7 +1,6 @@
-/* fix out range */
 
 .login-side-bar {
-  width: 35%;
+  width: 35vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,7 +8,7 @@
 }
 
 .login-side-bar-main {
-  width: 70%;
+  width: 80%;
 }
 
 .login-side-bar-web-title {
@@ -36,8 +35,8 @@
   font-weight: bold;
   line-height: 40px;
   margin-top: 80px;
-  margin-right: auto;
   margin-bottom: 40px;
+  display: flex;
 }
 
 .login-side-bar-body-number {
