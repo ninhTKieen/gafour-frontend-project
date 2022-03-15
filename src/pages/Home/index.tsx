@@ -7,7 +7,6 @@ const HomePage: React.FC = () => {
     <React.Fragment>
       <Header/>
       <div>Dit me may</div>
-      <Button colorScheme="blue">Go to login page</Button>
     </React.Fragment>
   );
 };
