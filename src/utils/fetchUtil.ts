@@ -15,10 +15,10 @@ export const axiosMethod: ApiMethod = {
 
 interface ApiParams {
   url: string;
-  params?: any;
+  params?: object;
   method?: Method;
-  token?: any;
-  data?: any;
+  token?: string;
+  data?: object;
 }
 
 export function axiosRequest<Type>(config: ApiParams): AxiosPromise<Type> {
