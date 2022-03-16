@@ -5,7 +5,6 @@ const HomePage: React.FC = () => {
   return (
     <React.Fragment>
       <div>Dit me may</div>
-      <Button colorScheme="blue">Go to login page</Button>
     </React.Fragment>
   );
 };
