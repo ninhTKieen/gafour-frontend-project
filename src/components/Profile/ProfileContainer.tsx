@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from 'src/components/Header';
+import { Box, Flex } from '@chakra-ui/react';
 
 import './ProfileCSS/ProfileContainer.css';
 import ProfileHead from './ProfileHead';
@@ -13,8 +14,14 @@ const ProfileContainer = () => {
       <div className='profile-container'>
         <ProfileHead/>
         <div className='profile__content'>
-          <ProfileLeftAside/>
-          <ProfileRightAside/>
+          <Flex color='white'> 
+            <Box bg='' w='100%' p={3} color='black'>
+              <ProfileLeftAside/>
+            </Box>
+            <Box bg='' w='100%' p={3} color='black'>
+              <ProfileRightAside/>
+            </Box>      
+          </Flex>
         </div>
       </div>
     </React.Fragment>
