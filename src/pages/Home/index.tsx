@@ -8,7 +8,6 @@ const HomePage: React.FC = () => {
     <React.Fragment>
       <div className="home">
         <Header />
-        {/* <div>Dit me may</div>
         <div>Dit me may</div>
         <div>Dit me may</div>
         <div>Dit me may</div>
@@ -45,7 +44,13 @@ const HomePage: React.FC = () => {
         <div>Dit me may</div>
         <div>Dit me may</div>
         <div>Dit me may</div>
-        <div>Dit me may</div> */}
+        <div>Dit me may</div>
+        <div>Dit me may</div>
+        <div>Dit me may</div>
+        <div>Dit me may</div>
+        <div>Dit me may</div>
+        <div>Dit me may</div>
+        <div>Dit me may</div>
       </div>
     </React.Fragment>
   );
