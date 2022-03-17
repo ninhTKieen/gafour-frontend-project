@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box, Tabs, TabList, TabPanels, TabPanel, Tab, Heading } from '@chakra-ui/react';
+import { Flex, Box, Tabs, TabList, TabPanels, TabPanel, Tab} from '@chakra-ui/react';
 
 const HeaderNavBar: React.FC = () => {
   return (
