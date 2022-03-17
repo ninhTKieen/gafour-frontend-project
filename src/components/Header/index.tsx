@@ -1,9 +1,9 @@
 import React from 'react';
 
 import HeaderSearchBar from './SearchBar';
-import HeaderNavBar from './NavBar';
+import HeaderNavBar from './Navbar';
 
-import { Flex, Box, Heading, Stack } from '@chakra-ui/react';
+import { Flex, Box, Heading } from '@chakra-ui/react';
 
 const Header: React.FC = () => {
   return (
