@@ -18,7 +18,6 @@ const HeaderSearchBar: React.FC = () => {
             type="tel"
             placeholder="Tìm kiếm"
             borderRadius="20px"
-            // _focus={{ bg: '#eee'}}
             focusBorderColor="#79bf43"
           />
         </InputGroup>
