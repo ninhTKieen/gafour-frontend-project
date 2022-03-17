@@ -2,6 +2,7 @@ import React from 'react';
 
 import HeaderSearchBar from './SearchBar';
 import HeaderNavBar from './Navbar';
+import HeaderMenu from './Menu';
 
 import { Flex, Box, Heading } from '@chakra-ui/react';
 
@@ -31,6 +32,8 @@ const Header: React.FC = () => {
         </Flex>
 
         <HeaderNavBar />
+
+        <HeaderMenu />
       </Flex>
     </React.Fragment>
   );

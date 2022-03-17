@@ -3,7 +3,7 @@ import { Flex, Box, Tabs, TabList, Tab } from '@chakra-ui/react';
 
 const HeaderNavBar: React.FC = () => {
   return (
-    <Flex w="60%" h="100%" zIndex={99}>
+    <Flex w="60%" h="100%" >
       <Box w="100%" h="100%">
         <Tabs align="center" variant="line" colorScheme="green">
           <TabList>
