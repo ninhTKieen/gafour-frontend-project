@@ -1,0 +1,19 @@
+.profile__head{
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+}
+
+.cover-image{
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+.profile__head-info{
+    display: inline-block;
+}
+.profile__head-nav{
+    display: inline-block;
+}
