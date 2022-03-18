@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import {
   Flex,
   Avatar,
@@ -35,20 +37,27 @@ const ProfileIcon: React.FC = () => {
         </MenuButton>
 
         <MenuList>
-          <MenuItem closeOnSelect={false} justifyContent="center" flexDir="column">
-            <Avatar name="Trung Kien" src="https://bit.ly/nolink" size="xl" marginBottom="10px" />
-            <Text fontWeight="bold">Trung Kien dep trai khoai to</Text>
-          </MenuItem>
+          <Link to="/profile">
+            <MenuItem closeOnSelect={false} justifyContent="center" flexDir="column">
+              <Avatar name="Trung Kien" src="https://bit.ly/nolink" size="xl" marginBottom="10px" />
+              <Text fontWeight="bold">Trung Kien dep trai khoai to</Text>
+            </MenuItem>
+          </Link>
 
           <MenuDivider />
 
           <MenuGroup>
-            <MenuItem closeOnSelect={false} icon={<UserEditIcon size="23px" color="green" />}>
-              Edit profile
-            </MenuItem>
-            <MenuItem closeOnSelect={false} icon={<SettingIcon size="23px" color="orange" />}>
-              Setting
-            </MenuItem>
+            <Link to="/profile/about">
+              <MenuItem closeOnSelect={false} icon={<UserEditIcon size="23px" color="green" />}>
+                Edit profile
+              </MenuItem>
+            </Link>
+
+            <Link to="/settings">
+              <MenuItem closeOnSelect={false} icon={<SettingIcon size="23px" color="orange" />}>
+                Setting
+              </MenuItem>
+            </Link>
           </MenuGroup>
 
           <MenuDivider />

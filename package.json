@@ -3,21 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apideck/better-ajv-errors": "^0.3.3",
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.6",
     "@emotion/react": "~11",
     "@emotion/styled": "~11",
-    "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
-    "@types/react-leaflet": "^2.8.2",
-    "ajv": "^8.10.0",
     "axios": "^0.26.0",
     "framer-motion": "~6",
     "js-cookie": "^3.0.1",
@@ -60,11 +57,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@types/node": "^16.11.26",
-=======
     "@types/js-cookie": "^3.0.1",
->>>>>>> 17dc10ec79dcb8d789488424983170d0bce62a7b
     "@types/react-helmet": "^6.1.5",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
@@ -76,7 +69,6 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "2.6.0"
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }

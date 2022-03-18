@@ -1,0 +1,17 @@
+.HomeAsideRight-label{
+    padding: 10px;
+    font-size: 2rem;
+    border-bottom: rgb(209, 53, 53);
+   
+}
+.HomeAsideRight{
+    /* background-color: rgb(236, 232, 232); */
+    position: fixed;
+    padding: 0;
+    top: 50px;
+    right: 80px;
+    z-index: 1;
+    
+    
+   
+}

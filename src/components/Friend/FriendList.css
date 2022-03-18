@@ -1,0 +1,6 @@
+.friend-list{
+    height:400px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding-top: 20px;
+}

@@ -8,22 +8,22 @@ const ProfileHeadNav=()=>{
                 <TabList>
                     <Tab>
                         <BreadcrumbItem>
-                        <BreadcrumbLink href='#' fontSize='2xl'>Posts</BreadcrumbLink>
+                        <BreadcrumbLink href='/profile' fontSize='2xl'>Posts</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Tab>
                     <Tab>
                         <BreadcrumbItem>
-                        <BreadcrumbLink href='#' fontSize='2xl'>Infomation</BreadcrumbLink>
+                        <BreadcrumbLink href='/profile/information' fontSize='2xl'>Infomation</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Tab>
                     <Tab>
                         <BreadcrumbItem>
-                        <BreadcrumbLink href='#' fontSize='2xl'>Friends</BreadcrumbLink>
+                        <BreadcrumbLink href='/profile/friend' fontSize='2xl'>Friends</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Tab>
                     <Tab>
                         <BreadcrumbItem>
-                        <BreadcrumbLink href='#' fontSize='2xl'>Images</BreadcrumbLink>
+                        <BreadcrumbLink href='/profile/image' fontSize='2xl'>Images</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Tab>
                 </TabList>
