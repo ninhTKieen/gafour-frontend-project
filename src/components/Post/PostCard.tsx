@@ -1,7 +1,7 @@
 import { ArrowForwardIcon, ChatIcon, LinkIcon, TimeIcon } from '@chakra-ui/icons';
 import { Image, Avatar, TagLabel, Badge, Box, Flex,Text, StackDivider, VStack, Stack, Button, IconButton, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel } from '@chakra-ui/react';
 import React from 'react';
-import './PostCard.css';
+import './PostCSS/PostCard.css';
 import PostComment from './PostComment';
 
 import avatar from 'src/assets/Avatar/avatar.jpg';

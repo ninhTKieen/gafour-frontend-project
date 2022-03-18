@@ -1,6 +1,6 @@
 import { Box, Flex,Text, Avatar } from '@chakra-ui/react';
 import React from 'react';
-import './PostComment.css'
+import './PostCSS/PostComment.css';
 import avatar_friend from 'src/assets/Avatar/avatar_friend_comment.jpg';
 
 function PostComment() {

@@ -1,12 +1,13 @@
 import React from 'react';
 import PostCreateButton from './PostCreateButton';
 
-import './ProfileCSS/PostInput.css';
+
+import './PostCSS/PostInput.css';
 
 const PostInput =()=>{
     return(
         <div className='profile-post__input'>
-            <PostCreateButton/>
+           <PostCreateButton/>
         </div>
     )
 }

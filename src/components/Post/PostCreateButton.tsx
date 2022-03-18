@@ -4,7 +4,7 @@ import React, { useState } from'react';
 import ProfileAvatar from 'src/assets/Profile/avatar.jpg';
 
 
-function PostCreateButton() {
+const  PostCreateButton=() =>{
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [postImage, setPostImage]=useState();
     const [srcImage, setSrcImage]= useState('#');
