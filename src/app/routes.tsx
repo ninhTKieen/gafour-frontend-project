@@ -1,8 +1,8 @@
 import React from 'react';
-import ProfileFriend from 'src/components/Profile/ProfileFriend';
-import ProfileImage from 'src/components/Profile/ProfileImage';
-import ProfileInformation from 'src/components/Profile/ProfileInformation';
-import ProfilePost from 'src/components/Profile/ProfilePost';
+import ProfileFriend from 'src/components/Profile/ProfileFriend/ProfileFriend';
+import ProfileImage from 'src/components/Profile/ProfileImage/ProfileImage';
+import ProfileInformation from 'src/components/Profile/ProfileInformation/ProfileInformation';
+import ProfilePost from 'src/components/Profile/ProfilePost/ProfilePost';
 import MainLayout from 'src/layouts/Main';
 
 import HomePage from 'src/pages/Home';

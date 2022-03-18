@@ -1,10 +1,12 @@
 import React from 'react';
-import { Avatar, Badge, Box, Divider, Flex, Text } from '@chakra-ui/react';
+import { Avatar,Box, Divider, Text } from '@chakra-ui/react';
 
-import CoverImage from '../../../src/assets/Profile/cover-image.jpg';
-import AvatarImage from '../../../src/assets/Profile/avatar.jpg';
-import '../Profile/ProfileCSS/ProfileHead.css';
+import CoverImage from 'src/assets/Profile/cover-image.jpg';
+import AvatarImage from 'src/assets/Avatar/avatar.jpg';
+import './ProfileHead.css';
 import ProfileHeadNav from './ProfileHeadNav';
+
+
 
 const ProfileHead =()=>{
     return(

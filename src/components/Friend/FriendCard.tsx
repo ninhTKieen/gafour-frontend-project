@@ -1,5 +1,6 @@
 import { Avatar, Box, Divider, Tag, TagLabel } from '@chakra-ui/react';
 import React from 'react';
+import FriendAvatar from 'src/assets/Avatar/avatar.jpg';
 
 
 function FriendCard() {
@@ -8,7 +9,7 @@ function FriendCard() {
            <Box h='50px' bg=''>
             <Tag size='lg' colorScheme='telegram' borderRadius='full'>
                 <Avatar
-                    src='https://bit.ly/sage-adebayo'
+                    src={FriendAvatar}
                     size='xs'
                     name='Toàn Elnino'
                     ml={-1}

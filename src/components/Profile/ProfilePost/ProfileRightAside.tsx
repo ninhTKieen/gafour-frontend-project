@@ -1,6 +1,7 @@
 import React from 'react';
-import PostCard from '../Post/PostCard';
-import PostInput from '../Post/PostInput';
+import PostCard from 'src/components/Post/PostCard';
+import PostInput from 'src/components/Post/PostInput';
+
 
 const ProfileRightAside =()=>{
     return(

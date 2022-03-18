@@ -3,7 +3,7 @@ import { Text, Icon, List, ListIcon, ListItem, StackDivider, VStack } from '@cha
 import React from 'react';
 import { FaWallet,FaSchool,FaHome,FaSearchLocation } from "react-icons/fa";
 
-import './ProfileCSS/ProfileLeftAside.css';
+import './ProfileLeftAside.css';
 
 const ProfileLeftAside =()=>{
     return(

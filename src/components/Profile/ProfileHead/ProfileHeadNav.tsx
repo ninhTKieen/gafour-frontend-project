@@ -1,4 +1,4 @@
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react';
+import { BreadcrumbItem, BreadcrumbLink, Tab, TabList, Tabs } from '@chakra-ui/react';
 import React from 'react';
 
 const ProfileHeadNav=()=>{
@@ -29,8 +29,6 @@ const ProfileHeadNav=()=>{
                 </TabList>
                 </Tabs>
         </div>
-
-        
     )
 }
 
