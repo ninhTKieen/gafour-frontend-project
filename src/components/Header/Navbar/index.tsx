@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { Flex, Box, Tabs, TabList, Tab, IconButton } from '@chakra-ui/react';
 
 import BadgeIcon from 'src/components/commons/BadgeIcon';
@@ -19,13 +21,15 @@ const HeaderNavBar: React.FC = () => {
               // onClick={() => console.log('this is tab 1')}
               _focus={{ boxShadow: 'none' }}
             >
-              <IconButton
-                aria-label="notification"
-                icon={<HomeIcon size={24} />}
-                bg="transparent"
-                isRound
-                size="lg"
-              />
+              <Link to="/">
+                <IconButton
+                  aria-label="notification"
+                  icon={<HomeIcon size={24} />}
+                  bg="transparent"
+                  isRound
+                  size="lg"
+                />
+              </Link>
             </Tab>
             <Tab
               h="100%"
@@ -33,18 +37,20 @@ const HeaderNavBar: React.FC = () => {
               // onClick={() => console.log('this is tab 2')}
               _focus={{ boxShadow: 'none' }}
             >
-              <IconButton
-                aria-label="notification"
-                icon={
-                  <BadgeIcon
-                    // eslint-disable-next-line react/no-children-prop
-                    children={<ChatIcon size={24} />}
-                  />
-                }
-                bg="transparent"
-                isRound
-                size="lg"
-              />
+              <Link to="/messenger">
+                <IconButton
+                  aria-label="notification"
+                  icon={
+                    <BadgeIcon
+                      // eslint-disable-next-line react/no-children-prop
+                      children={<ChatIcon size={24} />}
+                    />
+                  }
+                  bg="transparent"
+                  isRound
+                  size="lg"
+                />
+              </Link>
             </Tab>
           </TabList>
         </Tabs>
