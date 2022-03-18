@@ -21,7 +21,7 @@ const HeaderNavBar: React.FC = () => {
             >
               <IconButton
                 aria-label="notification"
-                icon={<HomeIcon size="30" />}
+                icon={<HomeIcon size={24} />}
                 bg="transparent"
                 isRound
                 size="lg"
@@ -38,7 +38,7 @@ const HeaderNavBar: React.FC = () => {
                 icon={
                   <BadgeIcon
                     // eslint-disable-next-line react/no-children-prop
-                    children={<ChatIcon size={32} />}
+                    children={<ChatIcon size={24} />}
                   />
                 }
                 bg="transparent"
