@@ -1,6 +1,8 @@
+import React from 'react';
+
 import { ViewIcon } from '@chakra-ui/icons';
 import { Box, StackDivider, VStack } from '@chakra-ui/react';
-import React from 'react';
+
 import './HomeComponentsCSS/HomeAsideLeft.css';
 
 

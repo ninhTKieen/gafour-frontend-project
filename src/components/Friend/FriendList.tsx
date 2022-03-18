@@ -1,6 +1,7 @@
-import { Avatar, Box, Tag, TagLabel } from '@chakra-ui/react';
 import React from 'react';
+
 import FriendCard from './FriendCard';
+
 import './FriendList.css';
 
 function FriendList() {

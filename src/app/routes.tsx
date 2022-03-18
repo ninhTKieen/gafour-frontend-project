@@ -19,7 +19,7 @@ const routes = [
     element: <MainLayout />,
     children: [
       { path: '', element: <ProfilePost /> },
-      { path: 'information', element: <ProfileInformation /> },
+      { path: 'about', element: <ProfileInformation /> },
       { path: 'friend', element: <ProfileFriend /> },
       { path: 'image', element: <ProfileImage /> },
     ],

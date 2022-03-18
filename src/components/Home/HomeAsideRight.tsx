@@ -1,5 +1,7 @@
-import {Divider, StackDivider, VStack } from '@chakra-ui/react';
 import React from 'react';
+
+import {Divider, StackDivider, VStack } from '@chakra-ui/react';
+
 import FriendList from '../Friend/FriendList';
 
 import './HomeComponentsCSS/HomeAsideRight.css';

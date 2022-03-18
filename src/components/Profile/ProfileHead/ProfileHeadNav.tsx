@@ -13,7 +13,7 @@ const ProfileHeadNav=()=>{
                     </Tab>
                     <Tab>
                         <BreadcrumbItem>
-                        <BreadcrumbLink href='/profile/information' fontSize='2xl'>Infomation</BreadcrumbLink>
+                        <BreadcrumbLink href='/profile/about' fontSize='2xl'>Infomation</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Tab>
                     <Tab>
