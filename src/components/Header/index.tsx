@@ -4,6 +4,8 @@ import HeaderSearchBar from './SearchBar';
 import HeaderNavBar from './Navbar';
 import HeaderMenu from './Menu';
 
+import { Link } from 'react-router-dom';
+
 import { Flex, Box, Heading } from '@chakra-ui/react';
 
 const Header: React.FC = () => {
@@ -21,7 +23,11 @@ const Header: React.FC = () => {
       >
         <Flex w="20%" align="center">
           <Box p="18px 10px">
-            <Heading color="#79bf43">Gapo</Heading>
+            <Link to="/">
+              <Heading color="#79bf43" cursor="pointer">
+                Gapo
+              </Heading>
+            </Link>
           </Box>
 
           <Box w="1px" h="34px" bg="#eeeeee"></Box>
