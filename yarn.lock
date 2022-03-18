@@ -1234,6 +1234,7 @@
 "@chakra-ui/icons@^1.1.7":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "integrity" "sha512-YIHxey/B4M2PyFASlHXtAWFyW+tsAtGAChOJ8dsM2kpu1MbVUqm/6nMI1KIFd7Te5IWuNYA75rAHBdLI0Yu61A=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/icons/-/icons-1.1.7.tgz"
   "version" "1.1.7"
@@ -1252,6 +1253,11 @@
   "version" "1.1.7"
 >>>>>>> 76c125e0789518370231281d46e5c703b72eaaa2
 >>>>>>> 5ddf39a218856be89814a26dc2720021990f6891
+=======
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.1.7.tgz#f8c0c44a969c8654b90026b7d375b550c4bfbc49"
+  integrity sha512-YIHxey/B4M2PyFASlHXtAWFyW+tsAtGAChOJ8dsM2kpu1MbVUqm/6nMI1KIFd7Te5IWuNYA75rAHBdLI0Yu61A==
+>>>>>>> 17dc10ec79dcb8d789488424983170d0bce62a7b
   dependencies:
     "@chakra-ui/icon" "2.0.5"
     "@types/react" "^17.0.15"
@@ -2536,6 +2542,11 @@
     "jest-matcher-utils" "^27.0.0"
     "pretty-format" "^27.0.0"
 
+"@types/js-cookie@^3.0.1":
+  "integrity" "sha512-7wg/8gfHltklehP+oyJnZrz9XBuX5ZPP4zB6UsI84utdlkRYLnOm2HfpLXazTwZA+fpGn0ir8tGNgVnMEleBGQ=="
+  "resolved" "https://registry.npmjs.org/@types/js-cookie/-/js-cookie-3.0.1.tgz"
+  "version" "3.0.1"
+
 "@types/json-schema@*", "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
   "integrity" "sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ=="
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz"
@@ -2629,11 +2640,15 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 17dc10ec79dcb8d789488424983170d0bce62a7b
 "@types/react@*", "@types/react@^17.0.15", "@types/react@^17.0.20":
   version "17.0.39"
   resolved "https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz"
   integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
+<<<<<<< HEAD
 =======
 >>>>>>> 5ddf39a218856be89814a26dc2720021990f6891
 "@types/react@*", "@types/react@^16.8.0 || ^17.0.0", "@types/react@^17.0.15", "@types/react@^17.0.20":
@@ -2650,6 +2665,8 @@
 =======
 >>>>>>> 76c125e0789518370231281d46e5c703b72eaaa2
 >>>>>>> 5ddf39a218856be89814a26dc2720021990f6891
+=======
+>>>>>>> 17dc10ec79dcb8d789488424983170d0bce62a7b
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3750,6 +3767,11 @@
     "string-width" "^4.2.0"
     "strip-ansi" "^6.0.0"
     "wrap-ansi" "^7.0.0"
+
+"clsx@^1.1.1":
+  "integrity" "sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA=="
+  "resolved" "https://registry.npmjs.org/clsx/-/clsx-1.1.1.tgz"
+  "version" "1.1.1"
 
 "co@^4.6.0":
   "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
@@ -6469,6 +6491,11 @@
     "import-local" "^3.0.2"
     "jest-cli" "^27.5.1"
 
+"js-cookie@^3.0.1":
+  "integrity" "sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw=="
+  "resolved" "https://registry.npmjs.org/js-cookie/-/js-cookie-3.0.1.tgz"
+  "version" "3.0.1"
+
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
   "resolved" "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -8096,7 +8123,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^16.8.0 || 17.x", "react-dom@^17.0.2", "react-dom@>=16.8", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@>=16.8.6":
+"react-dom@*", "react-dom@^16.8.0 || 17.x", "react-dom@^17.0.2", "react-dom@>=16", "react-dom@>=16.8", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@>=16.8.6":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -8277,7 +8304,14 @@
     "invariant" "^2.2.4"
     "tslib" "^1.0.0"
 
-"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || 17.x", "react@^16.8.3 || ^17", "react@^16.9.0 || ^17.0.0 || 18.0.0-beta", "react@^17.0.2", "react@>= 16", "react@>=16.3.0", "react@>=16.8", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@>=16.8.0", "react@>=16.8.6", "react@17.0.2":
+"react-toastify@^8.2.0":
+  "integrity" "sha512-Pg2Ju7NngAamarFvLwqrFomJ57u/Ay6i6zfLurt/qPynWkAkOthu6vxfqYpJCyNhHRhR4hu7+bySSeWWJu6PAg=="
+  "resolved" "https://registry.npmjs.org/react-toastify/-/react-toastify-8.2.0.tgz"
+  "version" "8.2.0"
+  dependencies:
+    "clsx" "^1.1.1"
+
+"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || 17.x", "react@^16.8.3 || ^17", "react@^16.9.0 || ^17.0.0 || 18.0.0-beta", "react@^17.0.2", "react@>= 16", "react@>=16", "react@>=16.3.0", "react@>=16.8", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@>=16.8.0", "react@>=16.8.6", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

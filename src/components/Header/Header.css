@@ -1,33 +1,33 @@
-.header{
-    background-color: rgb(37, 142, 34);
+.header {
     padding: 10px 10px 0px 10px;
     position: fixed;
     padding: 0;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 3;
-
-}
-.header-profile-name{
+    background-color: #fff;
+    
+  }
+  .header-profile-name {
     padding: 2rem;
     font-weight: 100px;
     margin: 50px 0px 0px 5px;
-}
-.header-appName{
+  }
+  .header-app-name {
     padding: 2rem;
     font-weight: 100px;
     color: rgb(197, 194, 204);
     margin: 5px 0px 0px 5px;
-}
-.header-searchInput{
-   margin: 0px 0px 2px 60px;
-   
-}
-.header-menu{
+    background-color: red;
+  }
+  .header-search-input:focus {
+    /* margin: 0px 0px 2px 60px; */
+    background-color: red;
+  }
+  .header-menu {
     margin-right: 10px;
     margin-top: 5px;
-}
-/* .header-avatarAndName{
-    background-color: rgb(214, 228, 231);
-} */
+  }
+  /* .header-avatarAndName{
+      background-color: rgb(214, 228, 231);
+  } */
