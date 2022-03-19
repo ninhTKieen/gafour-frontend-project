@@ -20,6 +20,7 @@ const Header: React.FC = () => {
         left={0}
         boxShadow="inset 0 -1px 0 #ececec"
         zIndex={99}
+        // h="74px"
       >
         <Flex w="20%" align="center">
           <Box p="18px 10px">
