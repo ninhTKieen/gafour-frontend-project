@@ -1,5 +1,5 @@
-import { ViewIcon } from '@chakra-ui/icons';
-import { Text, Icon, List, ListIcon, ListItem, StackDivider, VStack } from '@chakra-ui/react';
+
+import { Text, Icon, List, ListItem} from '@chakra-ui/react';
 import React from 'react';
 import { FaWallet,FaSchool,FaHome,FaSearchLocation } from "react-icons/fa";
 

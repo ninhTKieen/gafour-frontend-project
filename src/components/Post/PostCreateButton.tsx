@@ -38,9 +38,9 @@ const  PostCreateButton=() =>{
           <ModalHeader>Create new post</ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
-              <FormControl>
+              <FormControl paddingBottom="50px">
                 <FormLabel></FormLabel>
-                <Input  placeholder='What are you thinking ?' />
+                <Input  placeholder='What are you thinking ?' padding="50px"/>
               </FormControl>
 
               <FormControl>
@@ -48,6 +48,7 @@ const  PostCreateButton=() =>{
                   type="file"
                   name='chose a picture'
                   onChange={handlePreviewPostImage}
+                  padding="5px"
                 >
                 </Input>
                 {postImage &&(

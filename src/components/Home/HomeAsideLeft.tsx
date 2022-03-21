@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { ViewIcon } from '@chakra-ui/icons';
-import { Box, StackDivider, VStack } from '@chakra-ui/react';
+import { Box, StackDivider, VStack, Link, Icon } from '@chakra-ui/react';
+
+import {FaCalendarWeek,FaUserFriends } from "react-icons/fa";
 
 import './HomeComponentsCSS/HomeAsideLeft.css';
 
@@ -15,18 +16,24 @@ function HomeAsideLeft() {
             spacing={4}
             align='stretch'
             >
-            <Box h='40px' bg=''>
-                <ViewIcon/>
-                <span> Event</span>
-            </Box>
-            <Box h='40px' bg=''>
-            <ViewIcon/>
-                <span> Friend</span>
-            </Box>
-            <Box h='40px' bg=''>
-            <ViewIcon/>
-                <span> Group</span>
-            </Box>
+            <Link href="/">
+                <Box h='40px' bg='' textAlign="left" paddingLeft="100px">
+                    <Icon as={FaCalendarWeek}/>
+                    <span> Event</span>
+                </Box>
+            </Link>
+            <Link href="/">
+                <Box h='40px' bg='' textAlign="left" paddingLeft="100px">
+                    <Icon as={FaUserFriends}/>
+                    <span> Friends</span>
+                </Box>
+            </Link>
+            <Link href="/profile/friend">
+                <Box h='40px' bg='' textAlign="left" paddingLeft="100px">
+                    <Icon as={FaUserFriends}/>
+                    <span> Group</span>
+                </Box>
+            </Link>
         </VStack>
       </div>
   );

@@ -9,112 +9,121 @@ const ProfileImage =()=>{
             <Container maxW='2xl'  centerContent>
             <Flex color='white'> 
                 <Box bg='' w='100%' p={3} color='black'>
-                <Text fontSize='2xl' fontWeight='medium' paddingBottom="24px">Your Images</Text>
+                    <Text fontSize='2xl' fontWeight='medium' paddingBottom="24px">Your Images</Text>
                 <SimpleGrid columns={4} spacing={5}>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>
                     </Box>
-                    <Box  border="2px solid #e5e5e5" padding="5px">
+                    <Box  border="1px solid #e5e5e5"  padding="5px">
+                    <Text fontSize='sm' fontWeight="thin" paddingBottom="24px">Tue 22 Mar at 20:08</Text>
                         <Link href="/profile">
                             <Image
                                 boxSize='150px'
                                 objectFit='cover'
                                 src={ProfilePostImage}
                                 alt=''
-                                borderRadius="10px"
+                                borderRadius="5px"
                             
                             />
                         </Link>

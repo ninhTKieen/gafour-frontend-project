@@ -1,11 +1,10 @@
 import React from 'react';
-import { Flex, Box, Heading, Stack, Text, Spacer, Switch, Container, Icon, List, ListItem, SimpleGrid, Button } from '@chakra-ui/react';
+import { Flex, Box, Heading, Stack, Text, Spacer, Container} from '@chakra-ui/react';
 
-import { AiOutlineUserAdd as FriendRqIcon } from 'react-icons/ai';
-import { FaPencilAlt as PostedIcon, FaHeart as ReactionIcon, FaHome, FaSchool, FaSearchLocation, FaWallet } from 'react-icons/fa';
-import { MdOutlineComment as CommentIcon } from 'react-icons/md';
+import {  FaHome, FaSchool, FaSearchLocation, FaWallet } from 'react-icons/fa';
+
 import ProfileTemplate from 'src/layouts/Profile';
-import { EditIcon } from '@chakra-ui/icons';
+
 import EditButton from 'src/components/EditButton/EditButton';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { LinkIcon, TimeIcon } from '@chakra-ui/icons';
-import { Avatar, Badge, Box, Flex,Text, StackDivider, VStack, Stack, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel } from '@chakra-ui/react';
+import { Image, Avatar, Badge, Box, Flex,Text, StackDivider, VStack, Stack, Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel } from '@chakra-ui/react';
 
 import PostComment from './PostComment';
 import avatar from 'src/assets/Avatar/avatar.jpg';
@@ -32,9 +32,17 @@ function PostCard() {
         </Box>
         {/* caption */}
         <Box  bg=''>
-            <p>Vãi lồng. Bỏ 75tr bảng mua trung vệ. Đéo biết nói gì luôn 🤩</p>
-          </Box>
-            {/* <img src={post_image}> </img> */}
+          <Text fontSize="16px" fontWeight={400} textAlign="left" marginLeft="10px">
+            Vãi lồng. Bỏ 75tr bảng mua trung vệ. Đéo biết nói gì luôn 🤩
+          </Text>
+        </Box>
+            <Image
+              src={post_image}
+              objectFit='cover'
+              boxSize="100%"
+            >
+
+            </Image>
             <Box  bg=''>
             <Stack direction='row'>
               <LinkIcon/>

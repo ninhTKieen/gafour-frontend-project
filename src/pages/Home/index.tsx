@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@chakra-ui/react';
+
 import Header from 'src/components/Header';
 import HomeContentContainer from 'src/components/Home/HomeContentContainer';
 
