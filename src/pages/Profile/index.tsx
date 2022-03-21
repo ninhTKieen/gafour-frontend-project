@@ -1,12 +1,16 @@
 import React from 'react';
-import ProfileContainer from 'src/components/Profile/ProfileContainer';
+import { Helmet } from 'react-helmet';
+import ProfileTemplate from 'src/layouts/Profile';
 
-const Profile: React.FC = () => {
+const ProfilePage: React.FC = () => {
   return (
     <React.Fragment>
-      <ProfileContainer/>
+      <Helmet>
+        <title>Gafour | Personal Page</title>
+      </Helmet>
+      <ProfileTemplate/>
     </React.Fragment>
   );
 };
 
-export default Profile;
+export default ProfilePage;

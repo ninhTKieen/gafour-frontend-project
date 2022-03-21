@@ -8,7 +8,7 @@ import './ProfileLeftAside.css';
 const ProfileLeftAside =()=>{
     return(
         <div className='profile__content-left__aside'>
-            <Text fontSize='2xl' fontWeight='bold'>Information</Text>
+            <Text fontSize='2xl' fontWeight='bold' paddingBottom="24px">Information</Text>
             <List spacing={6}>
                 <ListItem>
                     <Icon as={FaWallet} />

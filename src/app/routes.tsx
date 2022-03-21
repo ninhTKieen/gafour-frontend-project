@@ -6,22 +6,27 @@ import ProfilePost from 'src/components/Profile/ProfilePost/ProfilePost';
 import MainLayout from 'src/layouts/Main';
 
 import HomePage from 'src/pages/Home';
+import ProfilePage from 'src/pages/Profile';
 
 
 const routes = [
   {
     path: '/',
     element: <MainLayout />,
-    children: [{ path: '/', element: <HomePage /> }],
+    children: [
+      { path: '/', element: <HomePage /> },
+      { path: 'profile', element: <ProfilePage /> },
+    ],
   },
   {
     path: '/profile',
     element: <MainLayout />,
     children: [
-      { path: '', element: <ProfilePost /> },
+      { path: 'post', element: <ProfilePost /> },
       { path: 'about', element: <ProfileInformation /> },
       { path: 'friend', element: <ProfileFriend /> },
       { path: 'image', element: <ProfileImage /> },
+      { path: '', element: <ProfilePost /> },
     ],
   },
 ];

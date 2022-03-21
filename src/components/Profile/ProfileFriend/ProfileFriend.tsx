@@ -10,26 +10,26 @@ const ProfileFriend =()=>{
             <Container maxW='2xl'  centerContent>
             <Flex color='white'> 
                 <Box bg='' w='100%' p={3} color='black'>
-                <Text fontSize='2xl' fontWeight='medium'>Your Friends</Text>
+                <Text fontSize='2xl' fontWeight='medium' paddingBottom="24px">Your Friends</Text>
                 <SimpleGrid columns={2} spacing={10}>
-                    <Box >
+                    <Box borderBottom="1px solid #e5e5e5">
                         <FriendCard/>
                     </Box>
-                    <Box >
+                    <Box borderBottom="1px solid #e5e5e5">
                         <FriendCard/>
                     </Box>
-                    <Box >
+                    <Box borderBottom="1px solid #e5e5e5">
+                        <FriendCard/>
+                    </Box >
+                    <Box borderBottom="1px solid #e5e5e5">
                         <FriendCard/>
                     </Box>
-                    <Box >
+                    <Box borderBottom="1px solid #e5e5e5">
                         <FriendCard/>
-                    </Box>
-                    <Box >
+                    </Box >
+                    <Box borderBottom="1px solid #e5e5e5">
                         <FriendCard/>
-                    </Box>
-                    <Box >
-                        <FriendCard/>
-                    </Box>
+                    </Box >
                     </SimpleGrid>
                 </Box>
                    

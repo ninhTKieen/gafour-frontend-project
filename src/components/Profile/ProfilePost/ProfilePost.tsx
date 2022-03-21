@@ -19,4 +19,4 @@ const ProfilePost =()=>{
     )
 }
 
-export default ProfilePost
+export default ProfilePost;

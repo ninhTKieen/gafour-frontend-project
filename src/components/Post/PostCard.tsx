@@ -34,7 +34,7 @@ function PostCard() {
         <Box  bg=''>
             <p>Vãi lồng. Bỏ 75tr bảng mua trung vệ. Đéo biết nói gì luôn 🤩</p>
           </Box>
-            <img src={post_image}> </img>
+            {/* <img src={post_image}> </img> */}
             <Box  bg=''>
             <Stack direction='row'>
               <LinkIcon/>
