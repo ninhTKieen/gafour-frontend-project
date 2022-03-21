@@ -32,6 +32,7 @@ const SettingsGeneral: React.FC = () => {
 
         {/* Notification Settings */}
         <SettingsNotification />
+
         <SettingsDarkTheme />
       </Flex>
     </React.Fragment>

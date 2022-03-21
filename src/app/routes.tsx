@@ -4,6 +4,7 @@ import MainLayout from 'src/layouts/Main';
 import HomePage from 'src/pages/Home';
 import SettingsPage from 'src/pages/Settings';
 import SettingsGeneralPage from 'src/pages/Settings/General';
+import SettingsBlockedPage from 'src/pages/Settings/Blocked';
 
 const routes: {
   path: string;
@@ -27,6 +28,7 @@ const routes: {
     children: [
       { path: '', element: <SettingsPage /> },
       { path: 'general', element: <SettingsGeneralPage /> },
+      { path: 'blocked', element: <SettingsBlockedPage /> },
     ],
   },
 ];
