@@ -12,10 +12,12 @@ import {
   Avatar,
   UnorderedList,
   ListItem,
+  useDisclosure
 } from '@chakra-ui/react';
 
 const SettingsBlockedPage: React.FC = (props) => {
   const [count, setCount] = React.useState(1);
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <React.Fragment>
