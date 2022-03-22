@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SettingsTemplate from 'src/layouts/Settings/Template';
+import CustomModal from 'src/components/commons/CustomModal';
 
 import {
   Flex,
@@ -12,11 +13,17 @@ import {
   Avatar,
   UnorderedList,
   ListItem,
-  useDisclosure
+  useDisclosure,
 } from '@chakra-ui/react';
 
-const SettingsBlockedPage: React.FC = (props) => {
-  const [count, setCount] = React.useState(1);
+// interface BlockedProps {
+//   // blockedList: Array<object>;
+//   count: number;
+// }
+
+// const SettingsBlockedPage: React.FC<BlockedProps> = ({ count }) => {
+const SettingsBlockedPage: React.FC = () => {
+  const count = 1;
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -55,8 +62,10 @@ const SettingsBlockedPage: React.FC = (props) => {
                       </Text>
                     </Box>
                     <Spacer />
-                    <Button>Unblocked</Button>
+                    <Button onClick={onOpen}>Unblocked</Button>
                   </Stack>
+
+                  <CustomModal isOpen={isOpen} onClose={onClose} />
                 </>
               ) : (
                 <Text color="grey">Empty list</Text>
