@@ -5,11 +5,13 @@ import routes from 'src/app/routes';
 import { useRoutes } from 'react-router-dom';
 import './App.css';
 
+import theme from 'src/theme';
+
 function App() {
   const routing = useRoutes(routes);
 
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <div className="App">{routing}</div>
     </ChakraProvider>
   );

@@ -8,9 +8,9 @@ import { Flex } from '@chakra-ui/react';
 const SettingsTemplate: React.FC = (props) => {
   return (
     <React.Fragment>
-      <div style={{ backgroundColor: '#f2f2f2', height: '100vh' }}>
+      <div style={{ height: '100vh' }}>
         <Header />
-        <Flex className="settings-page" >
+        <Flex className="settings-page">
           <SettingsBox />
           {props.children}
         </Flex>

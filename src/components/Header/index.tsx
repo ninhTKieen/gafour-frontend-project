@@ -6,9 +6,11 @@ import HeaderMenu from './Menu';
 
 import { Link } from 'react-router-dom';
 
-import { Flex, Box, Heading } from '@chakra-ui/react';
+import { Flex, Box, Heading, Button, useColorMode } from '@chakra-ui/react';
 
 const Header: React.FC = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+
   return (
     <React.Fragment>
       <Flex
@@ -36,6 +38,10 @@ const Header: React.FC = () => {
           <Box p="18px 10px">
             <HeaderSearchBar />
           </Box>
+
+          <Button onClick={toggleColorMode}>
+            Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+          </Button>
         </Flex>
 
         <HeaderNavBar />
