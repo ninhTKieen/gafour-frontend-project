@@ -14,12 +14,7 @@ const HeaderSearchBar: React.FC = () => {
             bg="transparent"
             cursor="pointer"
           />
-          <Input
-            type="tel"
-            placeholder="Tìm kiếm"
-            borderRadius="20px"
-            focusBorderColor="#79bf43"
-          />
+          <Input type="tel" placeholder="Tìm kiếm" borderRadius="20px" focusBorderColor="#79bf43" />
         </InputGroup>
       </Stack>
     </React.Fragment>
