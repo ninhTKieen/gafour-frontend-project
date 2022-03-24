@@ -18,7 +18,7 @@ import './LoginSidebar.css';
 
 const LoginSideBar: React.FC = () => {
   const [show, setShow] = React.useState(false);
-  const [disabled, setDisabled] = React.useState(false);
+  // const [disabled, setDisabled] = React.useState(false);
 
   return (
     <React.Fragment>
