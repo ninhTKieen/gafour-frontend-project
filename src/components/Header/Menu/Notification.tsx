@@ -25,7 +25,6 @@ const Notification: React.FC = () => {
         </PopoverTrigger>
 
         <PopoverContent
-          bg="#fff"
           alignItems="flex-start"
           _focus={{ borderShadow: 'none' }}
           h="600px"
