@@ -16,7 +16,7 @@ export const axiosMethod: ApiMethod = {
 interface ApiParams {
   url: string;
   params?: object | null;
-  method?: Method;
+  method?: Method | "GET";
   token?: string | null;
   data?: object | null;
 }
@@ -38,7 +38,6 @@ export function axiosRequest<Type>(config: ApiParams): AxiosPromise<Type> {
   if (token) {
     axiosConfig.headers = headers;
   }
-  console.log(axiosConfig);
   
   return axios(axiosConfig);
 }
