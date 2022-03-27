@@ -1,9 +1,9 @@
 import axios, { AxiosPromise, AxiosRequestConfig, AxiosRequestHeaders, Method } from 'axios';
 interface ApiMethod {
-  GET: string;
-  POST: string;
-  PUT: string;
-  DELETE: string;
+  GET: Method;
+  POST: Method;
+  PUT: Method;
+  DELETE: Method;
 }
 
 export const axiosMethod: ApiMethod = {
@@ -15,10 +15,10 @@ export const axiosMethod: ApiMethod = {
 
 interface ApiParams {
   url: string;
-  params?: any;
+  params?: object | null;
   method?: Method;
-  token?: any;
-  data?: any;
+  token?: string | null;
+  data?: object | null;
 }
 
 export function axiosRequest<Type>(config: ApiParams): AxiosPromise<Type> {
@@ -38,6 +38,7 @@ export function axiosRequest<Type>(config: ApiParams): AxiosPromise<Type> {
   if (token) {
     axiosConfig.headers = headers;
   }
-
+  console.log(axiosConfig);
+  
   return axios(axiosConfig);
 }
