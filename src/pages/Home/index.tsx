@@ -17,7 +17,6 @@ const HomePage: React.FC = () => {
   React.useEffect(() => {
     const fetchAPI = async () => {
       const apiResponse = await tasksApi.getApi();
-      console.log(apiResponse.data);
       setTasks(apiResponse.data);
     };
     fetchAPI();
