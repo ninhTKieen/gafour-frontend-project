@@ -1,9 +1,9 @@
-import { mode } from '@chakra-ui/theme-tools';
+import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools';
 
 const styles = {
-  global: (props: any) => ({
+  global: (props: StyleFunctionProps) => ({
     body: {
-      bg: mode('gray.100', 'gray.800')(props),
+      bg: mode('#f2f2f2', '#000000')(props),
       scrollBehavior: 'smooth',
     },
   }),
