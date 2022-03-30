@@ -18,7 +18,7 @@ const Header: React.FC = () => {
       <Flex
         align="center"
         pos="fixed"
-        bg={colorMode === 'light' ? '#fff' : '#000'}
+        bg={colorMode === 'light' ? '#fff' : '#18191a'}
         top={0}
         right={0}
         left={0}
