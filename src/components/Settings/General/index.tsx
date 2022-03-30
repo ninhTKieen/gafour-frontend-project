@@ -3,16 +3,18 @@ import React from 'react';
 import SettingsNotification from './Notification';
 import SettingsDarkTheme from './DarkTheme';
 
-import { Flex, Box, Heading, Stack, Text, Spacer } from '@chakra-ui/react';
+import { Flex, Box, Heading, Stack, Text, Spacer, useColorMode } from '@chakra-ui/react';
 
 import { AiOutlineLock as LockIcon, AiOutlineRight as ArrowIcon } from 'react-icons/ai';
 
 import './SettingsGeneral.css';
 
 const SettingsGeneral: React.FC = () => {
+  const { colorMode } = useColorMode();
+
   return (
     <React.Fragment>
-      <Flex w="512px" bg="#fff" direction="column">
+      <Flex w="512px" direction="column" bg={colorMode === 'light' ? '#fff' : '#18191a'}>
         {/* Security settings */}
         <Flex padding="24px" direction="column" align="flex-start">
           <Heading fontSize="18px">Security Settings</Heading>

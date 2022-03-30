@@ -2,7 +2,16 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { Flex, Box, Heading, List, ListIcon, ListItem, Button } from '@chakra-ui/react';
+import {
+  Flex,
+  Box,
+  Heading,
+  List,
+  ListIcon,
+  ListItem,
+  Button,
+  useColorMode,
+} from '@chakra-ui/react';
 import { IconType } from 'react-icons/lib';
 import {
   FcSettings as SettingsIcon,
@@ -28,22 +37,25 @@ const items: { id: number; title: string; ref: string; icon: IconType }[] = [
 ];
 
 const SettingsBox: React.FC = () => {
+  const { colorMode } = useColorMode();
+
   return (
     <React.Fragment>
       <Flex
         className="settings-box"
-        bg="#fff"
+        bg={colorMode === 'light' ? '#fff' : '#18191a'}
         direction="column"
         align="flex-start"
         marginRight="12px"
         maxH="204px"
       >
         <Heading
-          fontSize={30}
+          fontSize="26px"
           fontWeight={700}
           paddingLeft="16px"
           paddingRight="16px"
           marginBottom="8px"
+          marginTop="8px"
         >
           Settings
         </Heading>
